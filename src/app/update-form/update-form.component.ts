@@ -1,4 +1,4 @@
-import { Component,  } from '@angular/core';
+import { Component, } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Apollo } from 'apollo-angular';
 import { ADD_TODO } from '../query';
@@ -7,7 +7,7 @@ import { ADD_TODO } from '../query';
   templateUrl: './update-form.component.html',
   styleUrls: ['./update-form.component.css']
 })
-export class UpdateFormComponent  {
+export class UpdateFormComponent {
 
   public title = new FormControl('');
   public completed = new FormControl('');

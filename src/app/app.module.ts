@@ -13,7 +13,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 
 /**Material Module **/
 
-import {MaterialModule} from './app.material-module';
+import { MaterialModule } from './app.material-module';
 
 /** Components **/
 
@@ -42,4 +42,4 @@ import { AppComponent } from './app.component';
 export class AppModule {
 
 
- }
+}

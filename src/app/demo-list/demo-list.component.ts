@@ -3,7 +3,7 @@ import { Apollo } from 'apollo-angular';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Query } from '../app.types';
-import {GET_TODOS} from '../query';
+import { GET_TODOS } from '../query';
 
 @Component({
   selector: 'app-demo-list',
@@ -16,7 +16,7 @@ export class DemoListComponent implements OnInit {
 
   constructor(private apollo: Apollo) { }
 
-  
+
 
   ngOnInit() {
     this.todoList = this.apollo.watchQuery<Query>({   /** Watch for updation in query **/

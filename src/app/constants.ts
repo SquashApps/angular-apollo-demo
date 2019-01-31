@@ -1,6 +1,6 @@
 /**Constant data for cache */
 
-export const  todoData = [
+export const todoData = [
     {
         id: 1,
         title: 'Title 1',

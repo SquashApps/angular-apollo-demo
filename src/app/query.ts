@@ -8,7 +8,7 @@ mutation addTodo($title: String!, $completed: Boolean!) {
 }
 `;
 
-export  const GET_TODOS = gql`
+export const GET_TODOS = gql`
 {
   todos @client {
     id

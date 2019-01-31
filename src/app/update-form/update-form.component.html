@@ -1,0 +1,13 @@
+
+<mat-card class="height">
+<div class="input-label">Title of Todo</div>
+<input type="text" [formControl]="title">
+
+<div class="input-label">Completed</div>
+<input type="text" [formControl]="completed">
+
+<div class="padding-10 text-align">
+    <button (click)="createTodo()">Create Todo</button>
+</div>
+
+</mat-card>

@@ -1,0 +1,7 @@
+<mat-card class="todo-list">
+<mat-card *ngFor="let todo of todoList | async" class="flex-property">
+  <div>{{todo.id}}</div>
+  <div>{{todo.title}}</div>
+  <div>{{todo.completed}}</div>
+</mat-card>
+</mat-card>
